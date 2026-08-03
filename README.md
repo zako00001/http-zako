@@ -1,6 +1,8 @@
-# vinext-starter
+# 五等分的zako / http-zako
 
-A clean full-stack starter running on
+个人网站：白底极简未来主义数字设计站，内置站长可视化编辑工作台。
+
+The site runs on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
 Drizzle support.
 
