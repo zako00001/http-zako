@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>五等分的zako</title>
+    <link>https://zako00001.github.io/http-zako/</link>
+    <description>记录设计、技术、生活与持续发生的灵感。</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0800</lastBuildDate>
+    <item>
+      <title>构建一个安静的数字空间</title>
+      <link>https://zako00001.github.io/http-zako/posts/quiet-digital-space/</link>
+      <guid>https://zako00001.github.io/http-zako/posts/quiet-digital-space/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0800</pubDate>
+      <description>为什么我仍然想拥有一个个人网站，以及它应该如何容纳长期、缓慢、并不完美的表达。</description>
+    </item>
+    <item>
+      <title>我如何整理每天看到的好设计</title>
+      <link>https://zako00001.github.io/http-zako/posts/design-inbox-system/</link>
+      <guid>https://zako00001.github.io/http-zako/posts/design-inbox-system/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0800</pubDate>
+      <description>收藏不是积累截图，而是建立一种能被重新找到、重新理解和重新使用的观察方法。</description>
+    </item>
+    <item>
+      <title>透明、留白与几何：我的界面语言</title>
+      <link>https://zako00001.github.io/http-zako/posts/glass-space-geometry/</link>
+      <guid>https://zako00001.github.io/http-zako/posts/glass-space-geometry/</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+      <description>把透明玻璃当作层级，把留白当作节奏，再用几何形状提供视觉记忆点。</description>
+    </item>
+    <item>
+      <title>从零开始记录：个人网站搭建手记</title>
+      <link>https://zako00001.github.io/http-zako/posts/building-in-public-note/</link>
+      <guid>https://zako00001.github.io/http-zako/posts/building-in-public-note/</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0800</pubDate>
+      <description>一次关于域名、静态页面、内容结构和“先发布再完善”的真实建站记录。</description>
+    </item>
+    <item>
+      <title>关于“五等分的zako”这个名字</title>
+      <link>https://zako00001.github.io/http-zako/posts/name-of-zako/</link>
+      <guid>https://zako00001.github.io/http-zako/posts/name-of-zako/</guid>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0800</pubDate>
+      <description>名字不必一次解释清楚，它可以像网站一样，在长期使用中慢慢获得自己的含义。</description>
+    </item>
+    <item>
+      <title>一周灵感存档 001</title>
+      <link>https://zako00001.github.io/http-zako/posts/inspiration-archive-001/</link>
+      <guid>https://zako00001.github.io/http-zako/posts/inspiration-archive-001/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0800</pubDate>
+      <description>本周留下来的三个界面、两句话和一个准备继续研究的问题。</description>
+    </item>
+  </channel>
+</rss>

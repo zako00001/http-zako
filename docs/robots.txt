@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /studio/
+
+Sitemap: https://zako00001.github.io/http-zako/sitemap.xml
