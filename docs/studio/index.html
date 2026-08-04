@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#f7f7f2" />
+    <link rel="icon" href="../favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="./studio.css" />
+    <title>站长工作台｜五等分的zako</title>
+  </head>
+  <body class="studio-static-page">
+    <header class="studio-topbar">
+      <a class="studio-logo" href="../"><span>五</span><b>五等分的zako</b></a>
+      <div>
+        <span class="owner-badge">仅仓库管理员可以发布</span>
+        <a class="ghost-link" href="../">返回网站</a>
+      </div>
+    </header>
+
+    <main class="studio-main">
+      <section class="studio-hero">
+        <div>
+          <p class="eyebrow">OWNER VISUAL STUDIO / STATIC EDITION</p>
+          <h1>不会代码，<br />也能编辑网站。</h1>
+        </div>
+        <p>在左侧修改名称、文字、作品和全站背景，右侧会立刻预览。满意后复制配置到 GitHub，网站会自动更新。</p>
+      </section>
+
+      <div class="studio-grid">
+        <section class="editor-panel" aria-label="网站编辑表单">
+          <div class="editor-heading">
+            <div>
+              <p class="eyebrow">01 / 编辑内容</p>
+              <h2>网站名称与首页</h2>
+            </div>
+            <button class="text-button" id="reset-online" type="button">恢复线上内容</button>
+          </div>
+
+          <fieldset>
+            <legend>品牌与首屏</legend>
+            <div class="form-grid two-columns">
+              <label><span>网站名称</span><input data-field="brandName" maxlength="40" /></label>
+              <label><span>地点与年份</span><input data-field="locationLabel" maxlength="40" /></label>
+              <label><span>首屏大字第一行</span><input data-field="heroFirst" maxlength="18" /></label>
+              <label><span>首屏大字第二行</span><input data-field="heroSecond" maxlength="18" /></label>
+            </div>
+            <label><span>一句话介绍</span><input data-field="tagline" maxlength="80" /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>关于文字</legend>
+            <label><span>第一段</span><input data-field="manifestoPrefix" maxlength="60" /></label>
+            <label><span>高亮文字</span><input data-field="manifestoHighlight" maxlength="40" /></label>
+            <label><span>最后一段</span><input data-field="manifestoSuffix" maxlength="60" /></label>
+            <label><span>补充说明</span><textarea data-field="introNote" maxlength="220" rows="3"></textarea></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>全站背景</legend>
+            <div class="theme-picker" role="radiogroup" aria-label="背景样式">
+              <label><input type="radio" name="theme" value="orbital" data-field="background.theme" /><span><b>轨道几何</b><small>白色圆环与秩序网格</small></span></label>
+              <label><input type="radio" name="theme" value="aurora" data-field="background.theme" /><span><b>透明极光</b><small>苹果式玻璃与柔和光晕</small></span></label>
+              <label><input type="radio" name="theme" value="monolith" data-field="background.theme" /><span><b>光线立柱</b><small>克制的未来线性空间</small></span></label>
+            </div>
+            <div class="form-grid two-columns color-grid">
+              <label><span>主点缀色</span><input type="color" data-field="background.accent" /></label>
+              <label><span>辅助点缀色</span><input type="color" data-field="background.secondary" /></label>
+            </div>
+            <label class="range-label"><span>背景强度 <output id="intensity-output">58%</output></span><input type="range" min="0" max="100" data-field="background.intensity" /></label>
+            <label class="range-label"><span>动态速度 <output id="motion-output">46%</output></span><input type="range" min="0" max="100" data-field="background.motion" /></label>
+            <label class="toggle-label"><span><b>细微颗粒</b><small>让纯白背景保留一点屏幕材质</small></span><input type="checkbox" data-field="background.grain" /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>联系信息</legend>
+            <div class="form-grid two-columns">
+              <label><span>联系标题第一行</span><input data-field="contactFirst" maxlength="28" /></label>
+              <label><span>联系标题第二行</span><input data-field="contactSecond" maxlength="28" /></label>
+            </div>
+            <label><span>联系邮箱</span><input type="email" data-field="contactEmail" maxlength="120" /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>三张作品卡片</legend>
+            <div class="project-edit-grid">
+              <section>
+                <h3>作品 01</h3>
+                <label><span>项目类型</span><input data-field="projects.0.type" maxlength="52" /></label>
+                <label><span>项目名称</span><input data-field="projects.0.name" maxlength="52" /></label>
+                <label><span>一句话介绍</span><textarea data-field="projects.0.note" maxlength="120" rows="2"></textarea></label>
+              </section>
+              <section>
+                <h3>作品 02</h3>
+                <label><span>项目类型</span><input data-field="projects.1.type" maxlength="52" /></label>
+                <label><span>项目名称</span><input data-field="projects.1.name" maxlength="52" /></label>
+                <label><span>一句话介绍</span><textarea data-field="projects.1.note" maxlength="120" rows="2"></textarea></label>
+              </section>
+              <section>
+                <h3>作品 03</h3>
+                <label><span>项目类型</span><input data-field="projects.2.type" maxlength="52" /></label>
+                <label><span>项目名称</span><input data-field="projects.2.name" maxlength="52" /></label>
+                <label><span>一句话介绍</span><textarea data-field="projects.2.note" maxlength="120" rows="2"></textarea></label>
+              </section>
+            </div>
+          </fieldset>
+        </section>
+
+        <aside class="preview-column">
+          <p class="eyebrow">实时预览</p>
+          <div class="studio-live-preview theme-orbital" id="live-preview">
+            <div class="mini-orbits" aria-hidden="true"><span></span><span></span><span></span></div>
+            <div class="mini-nav"><b id="preview-brand">五等分的zako</b><span>STUDIO</span></div>
+            <div class="mini-copy">
+              <small id="preview-tagline">设计界面，也设计它们发生的空间。</small>
+              <strong><span id="preview-first">DIGITAL</span><br /><span id="preview-second">ATELIER.</span></strong>
+            </div>
+            <div class="mini-meta"><span id="preview-location">SHANGHAI · 2026</span><span id="preview-project">AETHER CONSOLE</span></div>
+          </div>
+          <p class="preview-help">修改内容会自动保存在这台电脑的浏览器里，但只有完成下方“发布网站”步骤，所有访客才会看到更新。</p>
+        </aside>
+      </div>
+
+      <section class="publish-panel" id="publish">
+        <div class="publish-title">
+          <p class="eyebrow">02 / 发布网站</p>
+          <h2>四步更新全站</h2>
+          <p>GitHub 就是你的管理员钥匙。别人即使打开这个工作台，也没有权限修改仓库，因此无法改变全站内容。</p>
+        </div>
+        <ol class="publish-steps">
+          <li><b>复制发布内容</b><span>点击下面的黑色按钮。</span></li>
+          <li><b>打开 GitHub 更新页</b><span>如果提示登录，就登录你的 GitHub 账号。</span></li>
+          <li><b>替换旧内容</b><span>在编辑框里按 Ctrl+A，再按 Ctrl+V。</span></li>
+          <li><b>确认发布</b><span>点击绿色的“Commit changes”，等待约 1–3 分钟。</span></li>
+        </ol>
+        <div class="publish-actions">
+          <button class="primary-action" id="copy-config" type="button">① 复制发布内容</button>
+          <a class="secondary-action" href="https://github.com/zako00001/http-zako/edit/main/docs/site-config.json" target="_blank" rel="noreferrer">② 打开 GitHub 更新页 ↗</a>
+          <button class="download-action" id="download-config" type="button">备用：下载配置文件</button>
+        </div>
+        <p class="action-message" id="action-message" role="status" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script type="module" src="./studio.js"></script>
+  </body>
+</html>
