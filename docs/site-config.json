@@ -1,0 +1,39 @@
+{
+  "brandName": "五等分的zako",
+  "locationLabel": "SHANGHAI · 2026",
+  "heroFirst": "DIGITAL",
+  "heroSecond": "ATELIER.",
+  "tagline": "设计界面，也设计它们发生的空间。",
+  "manifestoPrefix": "在秩序与未知之间，构建",
+  "manifestoHighlight": "安静而有生命力",
+  "manifestoSuffix": "的数字体验。",
+  "introNote": "以清晰的系统、克制的动效和轻盈的材质，持续记录界面、字体与日常观察。",
+  "contactFirst": "LET'S MAKE",
+  "contactSecond": "THE NEXT THING.",
+  "contactEmail": "hello@example.com",
+  "background": {
+    "theme": "orbital",
+    "accent": "#dfff00",
+    "secondary": "#3758ff",
+    "intensity": 58,
+    "motion": 46,
+    "grain": true
+  },
+  "projects": [
+    {
+      "name": "AETHER CONSOLE",
+      "type": "INTERFACE SYSTEM",
+      "note": "将复杂信息压缩成安静、清晰的操作界面。"
+    },
+    {
+      "name": "LUMEN ARCHIVE",
+      "type": "DIGITAL IDENTITY",
+      "note": "围绕光、秩序和时间建立的数字视觉语言。"
+    },
+    {
+      "name": "FIELD NOTES",
+      "type": "EXPERIMENTAL EDITORIAL",
+      "note": "持续记录界面、字体与日常观察的实验空间。"
+    }
+  ]
+}
