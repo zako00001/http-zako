@@ -1,5 +1,5 @@
 {
-  "brandName": "五等分的zako",
+  "brandName": "五等分的杂鱼",
   "brandMonogram": "五",
   "siteDescription": "记录设计、技术、生活与持续发生的灵感。",
   "heroEyebrow": "PERSONAL BLOG · SHANGHAI",
@@ -14,17 +14,44 @@
     "status": "正在整理这个博客，也在练习更稳定地输出。"
   },
   "navigation": [
-    { "label": "首页", "href": "" },
-    { "label": "文章", "href": "blog/" },
-    { "label": "归档", "href": "archive/" },
-    { "label": "关于", "href": "about/" }
+    {
+      "label": "首页",
+      "href": ""
+    },
+    {
+      "label": "文章",
+      "href": "blog/"
+    },
+    {
+      "label": "归档",
+      "href": "archive/"
+    },
+    {
+      "label": "关于",
+      "href": "about/"
+    }
   ],
   "socialLinks": [
-    { "label": "GitHub", "url": "https://github.com/zako00001" },
-    { "label": "Email", "url": "mailto:hello@example.com" },
-    { "label": "RSS", "url": "rss.xml" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/zako00001"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:hello@example.com"
+    },
+    {
+      "label": "RSS",
+      "url": "rss.xml"
+    }
   ],
-  "topics": ["设计观察", "建站手记", "数字生活", "灵感存档", "个人成长"],
+  "topics": [
+    "设计观察",
+    "建站手记",
+    "数字生活",
+    "灵感存档",
+    "个人成长"
+  ],
   "about": {
     "heading": "你好，我是 zako。",
     "paragraphs": [
@@ -37,7 +64,12 @@
       "让设计服务于阅读，而不是打断阅读。",
       "允许观点随着经验改变。"
     ],
-    "uses": ["Figma / 视觉整理", "VS Code / 写作与建站", "Obsidian / 知识笔记", "相机与手机备忘录 / 日常采集"]
+    "uses": [
+      "Figma / 视觉整理",
+      "VS Code / 写作与建站",
+      "Obsidian / 知识笔记",
+      "相机与手机备忘录 / 日常采集"
+    ]
   },
   "footerNote": "把互联网重新变成一个有人居住的地方。",
   "copyrightYear": "2026",
