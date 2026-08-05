@@ -1,0 +1,84 @@
+{
+  "brandName": "五等分的杂鱼",
+  "brandMonogram": "五",
+  "siteDescription": "记录设计、技术、生活与持续发生的灵感。",
+  "heroEyebrow": "PERSONAL BLOG · SHANGHAI",
+  "heroTitle": "在日常与数字世界之间，留下真实的思考。",
+  "heroIntro": "这里是五等分的zako的个人博客。我记录正在学习的事、做过的项目、喜欢的设计，以及一些尚未整理成答案的问题。",
+  "featuredSlug": "quiet-digital-space",
+  "profile": {
+    "name": "zako",
+    "role": "独立创作者 / 终身学习者",
+    "location": "Shanghai, China",
+    "bio": "关注视觉设计、个人知识系统与互联网文化。比起给出结论，我更愿意记录思考如何慢慢成形。",
+    "status": "正在整理这个博客，也在练习更稳定地输出。"
+  },
+  "navigation": [
+    {
+      "label": "首页",
+      "href": ""
+    },
+    {
+      "label": "文章",
+      "href": "blog/"
+    },
+    {
+      "label": "归档",
+      "href": "archive/"
+    },
+    {
+      "label": "关于",
+      "href": "about/"
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/zako00001"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:hello@example.com"
+    },
+    {
+      "label": "RSS",
+      "url": "rss.xml"
+    }
+  ],
+  "topics": [
+    "设计观察",
+    "建站手记",
+    "数字生活",
+    "灵感存档",
+    "个人成长"
+  ],
+  "about": {
+    "heading": "你好，我是 zako。",
+    "paragraphs": [
+      "这是一个缓慢生长的个人空间。它不追逐每天的热点，而是收集值得多想一会儿的东西。",
+      "我喜欢清晰的界面、耐看的排版和真正解决问题的工具，也会记录生活中那些难以分类、却不愿忘记的瞬间。"
+    ],
+    "principles": [
+      "先记录，再判断它是否重要。",
+      "尽量把复杂的事说清楚。",
+      "让设计服务于阅读，而不是打断阅读。",
+      "允许观点随着经验改变。"
+    ],
+    "uses": [
+      "Figma / 视觉整理",
+      "VS Code / 写作与建站",
+      "Obsidian / 知识笔记",
+      "相机与手机备忘录 / 日常采集"
+    ]
+  },
+  "footerNote": "把互联网重新变成一个有人居住的地方。",
+  "copyrightYear": "2026",
+  "theme": {
+    "accent": "#c8f135",
+    "secondary": "#3157ff",
+    "paper": "#f6f6f1",
+    "ink": "#171714",
+    "backgroundStyle": "grid",
+    "grain": true
+  }
+}
